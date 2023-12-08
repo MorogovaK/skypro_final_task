@@ -5,26 +5,38 @@
 	 float: right;
 }
  nav ul {
-	 margin: 0;
-	 padding: 0;
+	 margin: 0px;
+	 padding: 0px;
 	 list-style: none;
 }
  nav li {
 	 display: inline-block;
 }
  body {
-	 background: #000000;
-	 color: #fff;
+	 background: #ffffff;
+	 color: #000000;
 }
  a {
-	 color: #808000
+	 color: #000000
 }
  h1 {
-	 color: #008080
+	 color: #000000
 }
  p {
-	 color: #008000
+	 color: #070707
 }
  ol {
-	 color: #008000
+	 color: #0a0a0a
+}
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+.links-container {
+	align-self: center;
+}
+li a {
+	padding-left: 30px;
 }
